@@ -1,0 +1,16 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.3-preview1.20574.1",
+  "options": {
+    "inputs": [
+      "http://www.soapclient.com/xml/soapresponder.wsdl"
+    ],
+    "namespaceMappings": [
+      "*, Dotnet.Wcf.Svcutil.ServiceReference.SoapResponder"
+    ],
+    "outputFile": "Reference.cs",
+    "sync": true,
+    "targetFramework": "net5.0",
+    "typeReuseMode": "All"
+  }
+}
